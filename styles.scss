@@ -1,8 +1,4 @@
-$container {
-  max-width: 1200px;
-  margin: 0 auto;
-
-  &hover {
-    background: red;
-  }
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 100px;
 }
