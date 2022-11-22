@@ -4,18 +4,19 @@
   box-sizing: border-box;
   & body {
     font-family: "Roboto", sans-serif;
-    background-color: rgb(235, 201, 116);
+    background-color: rgb(241, 229, 214);
     & h1 {
       margin-left: 200px;
     }
 
     & .column-left {
-      background-color: rgb(235, 201, 116);
+      background-color: rgb(241, 229, 214);
       margin-left: auto;
     }
     & .column-right {
-      background-color: rgb(235, 201, 116);
+      background-color: rgb(241, 229, 214);
       margin-left: 200px;
+      color: goldenrod;
     }
     & .card.vd {
       padding: 10px;
@@ -25,6 +26,25 @@
       flex-direction: column;
       justify-content: space-between;
       margin-left: auto;
+      margin-bottom: 2.5rem;
+    }
+    & .card-team {
+      margin-left: 0;
+    }
+    & .contact-form {
+      display: flex;
+      & h2 {
+        margin-left: 0;
+      }
+
+      & .input-box {
+        display: flex;
+        flex-direction: column;
+
+        & input {
+          margin-bottom: 10px;
+        }
+      }
     }
   }
 }

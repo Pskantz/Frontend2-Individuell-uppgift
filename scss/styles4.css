@@ -5,18 +5,19 @@
 }
 * body {
   font-family: "Roboto", sans-serif;
-  background-color: rgb(235, 201, 116);
+  background-color: rgb(241, 229, 214);
 }
 * body h1 {
   margin-left: 200px;
 }
 * body .column-left {
-  background-color: rgb(235, 201, 116);
+  background-color: rgb(241, 229, 214);
   margin-left: auto;
 }
 * body .column-right {
-  background-color: rgb(235, 201, 116);
+  background-color: rgb(241, 229, 214);
   margin-left: 200px;
+  color: goldenrod;
 }
 * body .card.vd {
   padding: 10px;
@@ -26,4 +27,21 @@
   flex-direction: column;
   justify-content: space-between;
   margin-left: auto;
+  margin-bottom: 2.5rem;
+}
+* body .card-team {
+  margin-left: 0;
+}
+* body .contact-form {
+  display: flex;
+}
+* body .contact-form h2 {
+  margin-left: 0;
+}
+* body .contact-form .input-box {
+  display: flex;
+  flex-direction: column;
+}
+* body .contact-form .input-box input {
+  margin-bottom: 10px;
 }/*# sourceMappingURL=styles4.css.map */
