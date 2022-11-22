@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  & body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(241, 229, 214);
+
+    & .text-center {
+      text-align: center;
+      margin-top: 20px;
+      & h1 {
+        margin-left: 20px;
+      }
+    }
+    & .column-left {
+      background-color: rgb(241, 229, 214);
+      width: 50%;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      margin-left: 5px;
+      margin-top: 10px;
+    }
+    & .Info {
+      background-color: rgb(241, 229, 214);
+      color: rgb(189, 137, 6);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-center;
+      margin-left: 165px;
+      margin-bottom: 100px;
+    }
+
+    & .TheBox {
+      background-color: rgb(241, 229, 214);
+      display: flex;
+      margin-left: 10rem;
+      margin-bottom: 200px;
+
+      & .gallery {
+        background-color: rgb(241, 229, 214);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin: 5px;
+        border: 1px;
+        float: left;
+        transition: transform 0.5s;
+        & :hover {
+          transform: scale(1.1);
+        }
+
+        & img {
+          width: 200px;
+          height: 200px;
+          background-size: cover;
+          justify-content: space-evenly;
+          flex-direction: column;
+          margin: 5px;
+          border: 1px;
+          float: left;
+          transition: transform 0.5s;
+          & :hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(241, 217, 157);
+}
+* body h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: rgb(177, 136, 33);
+  margin-left: 150px;
+}
+* body .column-left {
+  background-color: rgb(241, 217, 157);
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  position: relative;
+}
+* .small-box {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  margin-left: 150px;
+  background-color: rgb(241, 217, 157);
+}
+* .small-box .Namn {
+  margin-bottom: 10px;
+}
+* .small-box .Namn input {
+  width: 200px;
+  height: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-left: 79px;
+}
+* .small-box .Datum input {
+  width: 200px;
+  height: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-left: 75px;
+}
+* .small-box .Beskrivning input {
+  width: 200px;
+  height: 70px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+* .small-box .Agenda input {
+  width: 200px;
+  height: 70px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-left: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+* .small-box .Picture label {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+* .small-box .Upload {
+  margin-left: 130px;
+}
+* .small-box .category {
+  margin-top: 30px;
+}
+* .small-box select {
+  width: 200px;
+  height: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-left: 130px;
+  margin-bottom: 30px;
+}/*# sourceMappingURL=styles3.css.map */

@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  & body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(241, 217, 157);
+
+    & h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      color: rgb(177, 136, 33);
+      margin-left: 150px;
+    }
+
+    & .column-left {
+      background-color: rgb(241, 217, 157);
+      width: 50%;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      position: relative;
+    }
+  }
+
+  & .small-box {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    margin-left: 150px;
+    background-color: rgb(241, 217, 157);
+
+    & .Namn {
+      margin-bottom: 10px;
+      & input {
+        width: 200px;
+        height: 20px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        padding-left: 10px;
+        margin-left: 79px;
+      }
+    }
+
+    & .Datum {
+      & input {
+        width: 200px;
+        height: 20px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        padding-left: 10px;
+        margin-left: 75px;
+      }
+    }
+    & .Beskrivning {
+      & input {
+        width: 200px;
+        height: 70px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        padding-left: 10px;
+        margin-left: 10px;
+        margin-top: 50px;
+      }
+    }
+    & .Agenda {
+      & input {
+        width: 200px;
+        height: 70px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        padding-left: 10px;
+        margin-left: 70px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+    }
+    & .Picture {
+      & label {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        align-items: center;
+      }
+    }
+    & .Upload {
+      margin-left: 130px;
+    }
+    & .category {
+      margin-top: 30px;
+    }
+    & select {
+      width: 200px;
+      height: 20px;
+      border: 1px solid #000;
+      border-radius: 5px;
+      padding-left: 10px;
+      margin-left: 130px;
+
+      margin-bottom: 30px;
+    }
+  }
+}

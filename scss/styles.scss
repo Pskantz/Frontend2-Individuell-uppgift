@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  & body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(241, 229, 214);
+    & .text-center {
+      text-align: center;
+      background-color: rgb(241, 229, 214);
+      color: goldenrod;
+    }
+    & .Bigbox {
+      background-color: rgb(241, 229, 214);
+      display: flex;
+      & .column-right {
+        background-color: rgb(241, 229, 214);
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        & img {
+          width: 1150px;
+          height: 200px;
+          background-size: cover;
+          margin-left: 1.5rem;
+        }
+      }
+
+      & .column-left {
+        background-color: rgb(241, 229, 214);
+      }
+      & .column-right {
+        & .flex-row1 {
+          display: flex;
+          justify-content: space-evenly;
+          border: solid 1px rgb(241, 229, 214);
+          width: 70rem;
+          justify-content: space-evenly;
+        }
+        & .card {
+          width: 20rem;
+          height: 20rem;
+          background-color: rgb(241, 229, 214);
+          border: solid 1px rgb(241, 229, 214);
+          border-radius: 10px;
+          & img {
+            width: 10rem;
+            height: 12rem;
+            border-radius: 10px;
+          }
+        }
+        & .container {
+          padding: 2px 16px;
+          margin-left: 2.5rem;
+          margin-bottom: 2.5rem;
+        }
+
+        & Img:hover {
+          opacity: 0.5;
+        }
+      }
+    }
+    & .flex-row2 {
+      display: flex;
+      justify-content: space-evenly;
+      border: solid 1px rgb(241, 229, 214);
+      width: 70rem;
+      justify-content: space-evenly;
+      & Img:hover {
+        opacity: 0.5;
+      }
+      & .card {
+        width: 20rem;
+        height: 20rem;
+        background-color: rgb(241, 229, 214);
+        border: solid 1px rgb(241, 229, 214);
+        border-radius: 10px;
+        & img {
+          width: 10rem;
+          height: 12rem;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}

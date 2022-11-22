@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* .body {
+  font-family: "Roboto", sans-serif;
+  background-color: blue;
+}
+* .body h1 {
+  color: blue;
+}
+* .body .column-left {
+  background-color: red;
+  width: 50%;
+  height: 100vh;
+  float: left;
+}/*# sourceMappingURL=styles4.css.map */

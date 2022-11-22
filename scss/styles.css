@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(241, 229, 214);
+}
+* body .text-center {
+  text-align: center;
+  background-color: rgb(241, 229, 214);
+  color: goldenrod;
+}
+* body .Bigbox {
+  background-color: rgb(241, 229, 214);
+  display: flex;
+}
+* body .Bigbox .column-right {
+  background-color: rgb(241, 229, 214);
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+* body .Bigbox .column-right img {
+  width: 1150px;
+  height: 200px;
+  background-size: cover;
+  margin-left: 1.5rem;
+}
+* body .Bigbox .column-left {
+  background-color: rgb(241, 229, 214);
+}
+* body .Bigbox .column-right .flex-row1 {
+  display: flex;
+  justify-content: space-evenly;
+  border: solid 1px rgb(241, 229, 214);
+  width: 70rem;
+  justify-content: space-evenly;
+}
+* body .Bigbox .column-right .card {
+  width: 20rem;
+  height: 20rem;
+  background-color: rgb(241, 229, 214);
+  border: solid 1px rgb(241, 229, 214);
+  border-radius: 10px;
+}
+* body .Bigbox .column-right .card img {
+  width: 10rem;
+  height: 12rem;
+  border-radius: 10px;
+}
+* body .Bigbox .column-right .container {
+  padding: 2px 16px;
+  margin-left: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+* body .Bigbox .column-right Img:hover {
+  opacity: 0.5;
+}
+* body .flex-row2 {
+  display: flex;
+  justify-content: space-evenly;
+  border: solid 1px rgb(241, 229, 214);
+  width: 70rem;
+  justify-content: space-evenly;
+}
+* body .flex-row2 Img:hover {
+  opacity: 0.5;
+}
+* body .flex-row2 .card {
+  width: 20rem;
+  height: 20rem;
+  background-color: rgb(241, 229, 214);
+  border: solid 1px rgb(241, 229, 214);
+  border-radius: 10px;
+}
+* body .flex-row2 .card img {
+  width: 10rem;
+  height: 12rem;
+  border-radius: 10px;
+}/*# sourceMappingURL=styles.css.map */
