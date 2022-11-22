@@ -2,18 +2,29 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  & .body {
+  & body {
     font-family: "Roboto", sans-serif;
-    background-color: blue;
-
+    background-color: rgb(235, 201, 116);
     & h1 {
-      color: blue;
+      margin-left: 200px;
     }
+
     & .column-left {
-      background-color: red;
-      width: 50%;
-      height: 100vh;
-      float: left;
+      background-color: rgb(235, 201, 116);
+      margin-left: auto;
+    }
+    & .column-right {
+      background-color: rgb(235, 201, 116);
+      margin-left: 200px;
+    }
+    & .card.vd {
+      padding: 10px;
+    }
+    & .container-vd {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-left: auto;
     }
   }
 }

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Mochiy+Pop+One&family=Poppins:wght@200;400;500&display=swap" />
-    <link rel="stylesheet" href="./scss/styles4.css" />
+    <link rel="stylesheet" href="/scss/styles4.css" />
     <title>Om Oss</title>
   </head>
   <body>
@@ -23,48 +23,54 @@
         </nav>
       </div>
     
-    <div class="column right">
+    <div class="column-right">
       <div class="row">
-          <p><b>Om företaget</b></p>
-          <p>Företaget grundades 1967 av Olof den trejde och har gått i generationer inom familjen.</p>
+          <p><b>Skantz AB</b></p>
+          <p>Skantz AB grundades 2022 av Patrik Skantz. Företagets mål är att vara nr1 inom event- och afterwork marknadsföringar.</p>
           <p><b>Om teamet</b></p>
-          <p>Vi är en grupp på 10 personer som gillar att hjälpa företagen få de perfekta eventen enligt önskemål</p>
+          <p>Vi är idag ca 50 anställda och växer hela tiden. Samtliga av oss har en utbildning eller bakgrund inom både webbutveckling och events.</p>
           
           <p><b>Om VDn</b></p>
-          <p>Vår VD sätter upp våra mål och ambitioner, samt säkerställer att projekten alltid lämnas i perfektion</p>
+          <p>VD i företaget är Patrik Skantz. Han har det övergripande ansvaret över företaget. Han leder projekt och sätter upp nya målsättningar för Skantz AB.</p>
           
       </div>
-      <div style="display: flex; justify-content: space-evenly" class="row-vd">
-         
-          <div class="card-vd">
-              <img class="cardImg-vd" src="/tollispapadopou/assets/img/avatar.png" height="200px" style="width: 100%;" />
+      
+          <div class="card.vd">
+              <img class="cardImg" src="./images/VD.BILD.jpg" height="170px" style="width: 160px" />
               <div class="container-vd">
-                  <p><b>Olof Palme</b></p>
-                  <p href="#"><b>+469203341</b></p>
-                  <p><b>Palme@live.se</b></p>
+                  <p><b>Patrik Skantz</b></p>
+                  <p><a href="number"><b>070-00000000</b></a></p>
+                  <a><a href="mail"<b>Patrikskantz@gmail.com</b></a></p>
               </div>
           </div>
          
-      </div>
-      <div style="display: flex;" class="row m-1">
+      
+      
          
           <div class="card-team">
-              <img class="cardImg" id="teamImg" src="/tollispapadopou/assets/img/offc.avif" height="200px" style="width: 300%" />
+              <img class="cardImg" id="teamImg" src="/images/Team.bild.jpg" height="320px" style="width: 90%" />
             
           </div>
-      </div>
+    
       <div class="contact-form">
-          <form>
-              <label for ="name">Namn</label>
-              <input  type ="text" id="text-box-1" name ="fullname" placeholder="">
-              <br> <label for ="name">Mail</label>
-             <input  type ="text" id="text-box-2" name ="fullname" placeholder="">
-             <br> <label for ="name">Meddelande</label>
-             <input type ="text" id="text-box-3" name ="fullname" placeholder="">
-             <br><button>Skicka</button>
-          </form>
-         </div>
+        <form action="index4.html" method="post">
+          <h2>Kontakta oss</h2>
+          <div class="input-box">
+            <input type="text" name="name" required="required" />
+            <span>Namn</span>
           </div>
+          <div class="input-box">
+            <input type="text" name="email" required="required" />
+            <span>Email</span>
+          </div>
+          <div class="input-box">
+            <textarea required="required"></textarea>
+            <span>Meddelande</span>
+          </div>
+          <div class="input-box">
+            <input type="submit" value="Skicka" />
+          </div>
+        </form>
       </div>
   </div>
 </div>
