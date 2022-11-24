@@ -39,8 +39,8 @@
               <img class="cardImg" src="./images/VD.BILD.jpg" height="170px" style="width: 160px" />
               <div class="container-vd">
                   <p><b>Patrik Skantz</b></p>
-                  <p><a href="number"><b>070-00000000</b></a></p>
-                  <a><a href="mail"<b>Patrikskantz@gmail.com</b></a></p>
+                  <p><a href="tel:0123456789"><b>070-00000000</b></a></p>
+                  <a><a href="mailto:patrikskantz@gmail.com"<b>Patrikskantz@gmail.com</b></a></p>
               </div>
           </div>
          
@@ -53,7 +53,7 @@
           </div>
     
       <div class="contact-form">
-        <form action="index4.html" method="post">
+        <form class="Minform" method="get">
           <h2>Kontakta oss</h2>
           <div class="input-box">
             <input type="text" name="name" required="required" />
@@ -68,14 +68,33 @@
             <span>Meddelande</span>
           </div>
           <div class="input-box">
-            <input type="submit" value="Skicka" />
+            
+            <input class="knapp" type="button" value="Skicka" />
           </div>
+        
         </form>
+      <p class="infotext">
+        Tack för ditt meddelande! Vi återkommer så snart vi kan.
+
+      </p>
       </div>
   </div>
 </div>
 </div>
+<script>
+  const knapp = document.querySelector(".knapp");
+  let infotex = document.querySelector(".infotext");
+  let form = document.querySelector(".Minform");
+  knapp.addEventListener("click", function (event) {
+    event.preventDefault();
+    alert("Tack för ditt meddelande!");
+    form.style.display = "none";
+  infotex.style.display = "block";
+  });
+  
+  
 
+</script>
 
   </body>
 </html>

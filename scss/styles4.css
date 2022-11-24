@@ -44,4 +44,10 @@
 }
 * body .contact-form .input-box input {
   margin-bottom: 10px;
+}
+* body .infotext {
+  margin-left: 0;
+  display: none;
+  font-size: 2rem;
+  text-align: center;
 }/*# sourceMappingURL=styles4.css.map */
