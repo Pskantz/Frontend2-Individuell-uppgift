@@ -32,6 +32,24 @@
   margin-left: 165px;
   margin-bottom: 100px;
 }
+* body .Info details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+  max-width: 10rem;
+}
+* body .Info summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+* body .Info details[open] {
+  padding: 0.5em;
+}
+* body .Info details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
+}
 * body .TheBox {
   background-color: rgb(241, 229, 214);
   display: flex;
